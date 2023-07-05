@@ -7,7 +7,7 @@ import UserLogin from '../../models/UserLogin';
 import { useDispatch } from 'react-redux';
 import { toast } from 'react-toastify';
 import { login } from '../../services/Service';
-import { addToken } from '../../store/tokens/action';
+import { addToken } from '../../store/tokens/actions';
 
 
 function Login() {

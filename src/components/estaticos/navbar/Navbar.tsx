@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { TokenState } from '../../../store/tokens/tokensReducer';
 
 import {toast} from 'react-toastify';
-import { addToken } from '../../../store/tokens/action';
+import { addToken } from '../../../store/tokens/actions';
 
 function Navbar() {
     let navigate = useNavigate();
